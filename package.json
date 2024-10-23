@@ -1,0 +1,39 @@
+{
+  "name": "tradematepro",
+  "version": "1.0.0",
+  "description": "pakistan stock exchange trading tools and personal finance web application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch --env-file=.env server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahsan-2812/TradeMatePro.git"
+  },
+  "keywords": [
+    "pakistan",
+    "stock",
+    "exchange",
+    "psx",
+    "personal",
+    "finance",
+    "trading",
+    "budget",
+    "dividend",
+    "investment"
+  ],
+  "author": "Muhammad Ahsan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahsan-2812/TradeMatePro/issues"
+  },
+  "homepage": "https://github.com/ahsan-2812/TradeMatePro#readme",
+  "dependencies": {
+    "config": "^3.3.12",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.7.2",
+    "morgan": "^1.10.0"
+  }
+}
