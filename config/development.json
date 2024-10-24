@@ -1,0 +1,9 @@
+{
+    "name": "TradeMatePro Web API - Development",
+    "db": {
+        "connection": "DB_CONNECTION_STRING"
+    },
+    "server": {
+        "port": "PORT"
+    }
+}

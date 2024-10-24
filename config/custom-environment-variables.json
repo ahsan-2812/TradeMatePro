@@ -1,0 +1,8 @@
+{
+    "db": {
+        "connection": "DB_CONNECTION_STRING"
+    },
+    "server": {
+        "port": "PORT"
+    }
+}
