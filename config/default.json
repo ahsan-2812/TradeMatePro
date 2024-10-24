@@ -1,3 +1,9 @@
 {
-    "name": "TradeMatePro Web API"
+    "name": "TradeMatePro Web API",
+    "db": {
+        "connection": "mongodb://localhost/trade_mate_pro"
+    },
+    "server": {
+        "port": 3000
+    }
 }

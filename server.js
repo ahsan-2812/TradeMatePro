@@ -4,14 +4,11 @@ const morgan = require('morgan');
 const helmet = require('helmet');
 const config = require('config');
 
-console.log(config.get('db.connection'))
-
 mongoose.connect(config.get('db.connection'))
 .then(() => console.log('Connected to TradeMatePro mongodb database'))
 .catch((error) => console.error('Error connecting to TradeMatePro database....', error));
 
 const server = express();
-
 
 
 server.set('view engine', 'ejs');
